@@ -1,0 +1,114 @@
+#home {
+    background-image: url("../images/bg.jpg");
+    padding: 20px;
+    width: 703px;
+}
+#content {
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    height: 540px;
+    padding: 20px;
+}
+#menu {
+    height: 51px;
+    background-image: url(../images/menu_bg.gif);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 663px;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#changeQuestion a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+#changeQuestion {
+    margin: 10px;
+}
+#formAddQuestion div span{
+    float: left;
+}
+#question, .answer {
+    width: 80%;
+}
+#question {
+    height: 100px;
+}
+#divAnswerChoice {
+    display: flex;
+    justify-content: space-around;
+}
+.answer {
+    height: 50px;
+}
+#detailQuestion table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 15px;
+}
+#detailQuestion table th {
+    width: 70%;
+    color: blue;
+    font-weight: bold;
+}
+#startAgain {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: black;
+}
+#pager a {
+    background-color: burlywood;
+    padding: 2px;
+    color: darkcyan;
+    margin: 3px;
+    text-decoration: none;
+}
+#pager span {
+    background-color: antiquewhite;
+    padding: 2px;
+    color: darkcyan;
+    margin: 3px;
+    text-decoration: none;
+}
+#formRegister table tr th {
+    vertical-align: top;
+    text-align: left;
+    color: #5584a1;
+}
+#formRegister table tr td p {
+    margin: 0px;
+}
+#bodyRegister h3 {
+    color: #000082;
+}
+#loginForm #register, th {
+    color: #5584a1;
+    text-decoration: none;
+}
+#bodyLogin h2 {
+    color: #000082;
+}
+#errorAccount {
+    margin: 0px;
+}
+#welcomeUser {
+    display: flex;
+    
+}
+#h3Welcome {
+    color: #5584a1;
+}
+#accountName {
+    color: #000082;
+    position: relative;
+    left: 5px;
+}
